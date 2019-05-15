@@ -1,8 +1,10 @@
 
 #Get Started
-Follow the steps in [Deployment Doc]
-(https://docs.microsoft.com/en-us/office365/securitycompliance/archive-third-party-data-with-sample-connector) to get started
+
+Follow the steps in [Deployment Doc](https://docs.microsoft.com/en-us/office365/securitycompliance/archive-third-party-data-with-sample-connector) to get started
+
 #Disclaimer
+
 
 Microsoft makes available this open source software (OSS) sample code (“Sample Code”) 
 as a sample to help facilitate your creation of your own application to connect with a 
