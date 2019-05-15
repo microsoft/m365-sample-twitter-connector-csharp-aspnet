@@ -1,0 +1,37 @@
+﻿@using Sample.TwitterConnector
+@using Newtonsoft.Json;
+@using System.Web.Http.Owin;
+@using Microsoft.Owin;
+@{
+		string loginUrl = this.Request.QueryString["loginUrl"];
+		string state = this.Request.QueryString["state"];
+		string authCode = this.Request.QueryString["oauth_verifier"];
+		bool closePopup = false;
+
+		if (!string.IsNullOrEmpty(loginUrl))
+		{
+			this.Response.Redirect(TwitterOAuthHelper.GetOAuthUrl(HttpContext.Current.GetOwinContext(), loginUrl));
+		}
+		else if (!string.IsNullOrEmpty(authCode) && HttpContext.Current.Error == null)
+		{
+			if (TwitterOAuthHelper.IsAuthenticRequest(HttpContext.Current.GetOwinContext(), state))
+			{
+				if (TwitterOAuthHelper.StoreToken(this.Request.GetOwinContext(), authCode, this.Request.Url).Result)
+				{
+					closePopup = true;
+				}
+			}
+		}
+		else if (HttpContext.Current.Error != null)
+		{
+			closePopup = true;
+		}
+}
+
+@if (closePopup)
+{
+		<div>Closing window...</div>
+				<script type="text/javascript">
+					self.close();
+				</script>
+}
