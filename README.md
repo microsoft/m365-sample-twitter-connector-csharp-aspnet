@@ -1,7 +1,7 @@
 
 # Get Started
 
-Follow the steps in [Deployment Doc](https://docs.microsoft.com/en-us/office365/securitycompliance/archive-third-party-data-with-sample-connector) to get started
+Follow the steps in [Deployment Doc](https://go.microsoft.com/fwlink/?linkid=2092640) to get started.
 
 # Disclaimer
 
