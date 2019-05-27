@@ -41,9 +41,14 @@ namespace Sample.TwitterSDK
         {
             List<Item> listItems = new List<Item>();
 
-            Item postItem = MapTweetToItem(tweet); 
-            listItems.Add(postItem);
+            Item postItem = MapTweetToItem(tweet);
+            if (!tweet.InReplyToUserId.Equals(tweet.User.Id))
+            {
+                postItem.ParentId = string.Empty;
+                postItem.ThreadId = string.Empty;
+            }
 
+            listItems.Add(postItem);
             return listItems;
         }
 
