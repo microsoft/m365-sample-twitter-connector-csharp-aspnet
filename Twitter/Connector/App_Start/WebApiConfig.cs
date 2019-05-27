@@ -46,10 +46,10 @@ namespace Sample.TwitterConnector
             Utility utility = new Utility();
             Settings.AAdAppId = await utility.ReadConfigurationSettingsFromTable("AAdAppId");
             Settings.AAdAppSecret = await utility.ReadConfigurationSettingsFromTable("AAdAppSecret");
-            SettingsTwitter.TwitterAppId = await utility.ReadConfigurationSettingsFromTable("TwitterAppId");
-            SettingsTwitter.TwitterAppSecret = await utility.ReadConfigurationSettingsFromTable("TwitterAppSecret");
-            SettingsTwitter.TwitterClientToken = await utility.ReadConfigurationSettingsFromTable("TwitterClientToken");
-            SettingsTwitter.TwitterClientSecret = await utility.ReadConfigurationSettingsFromTable("TwitterClientSecret");
+            SettingsTwitter.TwitterApiKey = await utility.ReadConfigurationSettingsFromTable("TwitterApiKey");
+            SettingsTwitter.TwitterApiSecretKey = await utility.ReadConfigurationSettingsFromTable("TwitterApiSecretKey");
+            SettingsTwitter.TwitterAccessToken = await utility.ReadConfigurationSettingsFromTable("TwitterAccessToken");
+            SettingsTwitter.TwitterAccessTokenSecret = await utility.ReadConfigurationSettingsFromTable("TwitterAccessTokenSecret");
             Settings.AADAppUri = await utility.ReadConfigurationSettingsFromTable("AADAppUri");
             Settings.APPINSIGHTS_INSTRUMENTATIONKEY = await utility.ReadConfigurationSettingsFromTable("APPINSIGHTS_INSTRUMENTATIONKEY");
             if (Settings.APPINSIGHTS_INSTRUMENTATIONKEY == null)

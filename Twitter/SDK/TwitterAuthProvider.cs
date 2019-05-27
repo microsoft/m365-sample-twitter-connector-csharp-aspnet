@@ -31,7 +31,7 @@ namespace Sample.TwitterSDK
         {
             string url = string.Format($"{SettingsTwitter.TwitterEndPoint}/oauth/request_token");
             var headers = new Dictionary<string, string>();
-            string authToken = GetToken(url, HttpMethod.Post.ToString().ToUpperInvariant(), SettingsTwitter.TwitterClientToken, SettingsTwitter.TwitterClientSecret, null);
+            string authToken = GetToken(url, HttpMethod.Post.ToString().ToUpperInvariant(), SettingsTwitter.TwitterAccessToken, SettingsTwitter.TwitterAccessTokenSecret, null);
             headers.Add("Authorization", "OAuth " + authToken);
             string ClientTokens = await this.Client.PostRequestAsync<string, string>("oauth/request_token", headers, string.Empty, CancellationToken.None);
             return ClientTokens;
@@ -58,7 +58,7 @@ namespace Sample.TwitterSDK
             queryParams.Add("oauth_verifier", accessCode);
             queryParams.Add("oauth_callback", redirectUrl);
 
-            OAuth1Token oAuth1Token = new OAuth1Token(SettingsTwitter.TwitterClientToken, SettingsTwitter.TwitterClientSecret, requestTokens.Where(k => k.Key == "ClientToken").FirstOrDefault().Value, requestTokens.Where(k => k.Key == "ClientSecret").FirstOrDefault().Value);
+            OAuth1Token oAuth1Token = new OAuth1Token(SettingsTwitter.TwitterAccessToken, SettingsTwitter.TwitterAccessTokenSecret, requestTokens.Where(k => k.Key == "ClientToken").FirstOrDefault().Value, requestTokens.Where(k => k.Key == "ClientSecret").FirstOrDefault().Value);
             OAuth1Helper oAuth1Helper = new OAuth1Helper(url, oAuth1Token, HttpMethod.Post.ToString().ToUpperInvariant());
             var qstr = oAuth1Helper.GetQueryString(queryParams);
             string tempToken = oAuth1Helper.GenerateAuthorizationHeader();
@@ -84,7 +84,7 @@ namespace Sample.TwitterSDK
 
         private static OAuth1Helper getOAuthHelper(string url, string httpMethod, string token, string secret)
         {
-            OAuth1Token oAuth1Token = new OAuth1Token(SettingsTwitter.TwitterAppId, SettingsTwitter.TwitterAppSecret, token, secret);
+            OAuth1Token oAuth1Token = new OAuth1Token(SettingsTwitter.TwitterApiKey, SettingsTwitter.TwitterApiSecretKey, token, secret);
             OAuth1Helper oAuth1Helper = new OAuth1Helper(url, oAuth1Token, httpMethod);
             return oAuth1Helper;
         }

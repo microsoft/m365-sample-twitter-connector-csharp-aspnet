@@ -20,10 +20,10 @@
         var settings = {
             AADAppIdValue: (typeof $scope.AADAppIdValue !== 'undefined') ? $scope.AADAppIdValue : "",
             AADAppSecretValue: (typeof $scope.AADAppSecretValue !== 'undefined') ? $scope.AADAppSecretValue : "",
-            TwitterAppIdValue: (typeof $scope.TwitterAppIdValue !== 'undefined') ? $scope.TwitterAppIdValue : "",
-            TwitterAppSecretValue: (typeof $scope.TwitterAppSecretValue !== 'undefined') ? $scope.TwitterAppSecretValue : "",
-            TwitterClientTokenValue: (typeof $scope.TwitterClientTokenValue !== 'undefined') ? $scope.TwitterClientTokenValue : "",
-            TwitterClientTokenSecretValue: (typeof $scope.TwitterClientTokenSecretValue !== 'undefined') ? $scope.TwitterClientTokenSecretValue : "",
+            TwitterApiKeyValue: (typeof $scope.TwitterApiKeyValue !== 'undefined') ? $scope.TwitterApiKeyValue : "",
+            TwitterApiSecretKeyValue: (typeof $scope.TwitterApiSecretKeyValue !== 'undefined') ? $scope.TwitterApiSecretKeyValue : "",
+            TwitterAccessTokenValue: (typeof $scope.TwitterAccessTokenValue !== 'undefined') ? $scope.TwitterAccessTokenValue : "",
+            TwitterAccessTokenSecretValue: (typeof $scope.TwitterAccessTokenSecretValue !== 'undefined') ? $scope.TwitterAccessTokenSecretValue : "",
             AADAppUriValue: (typeof $scope.AADAppUriValue !== 'undefined') ? $scope.AADAppUriValue : "",
             InstrumentationKeyValue: (typeof $scope.InstrumentationKeyValue !== 'undefined') ? $scope.InstrumentationKeyValue : ""
         };
