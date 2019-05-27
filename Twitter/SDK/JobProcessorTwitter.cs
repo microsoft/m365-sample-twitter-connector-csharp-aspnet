@@ -66,8 +66,8 @@ namespace Sample.TwitterSDK
         public JobProcessorTwitter(IDownloader downloader, IUploader uploader, TwitterSchemaToItemMapper twitterItemMapper)
         {
             url = SettingsTwitter.TwitterEndPoint+ "/1.1/statuses/user_timeline.json";
-            AppID = SettingsTwitter.TwitterAppId;
-            AppSecret = SettingsTwitter.TwitterAppSecret;
+            AppID = SettingsTwitter.TwitterApiKey;
+            AppSecret = SettingsTwitter.TwitterApiSecretKey;
             this.twitterItemMapper = twitterItemMapper;
             this.downloader = downloader;
             this.uploader = uploader;
@@ -82,7 +82,7 @@ namespace Sample.TwitterSDK
             Trace.TraceInformation("Data fetch Started");
             List<ItemMetadata> itemMetaData = new List<ItemMetadata>();
             SourceInfoTwitter twitterSourceInfo = JsonConvert.DeserializeObject<SourceInfoTwitter>(sourceInfo);
-            OAuth1Token token = new OAuth1Token(SettingsTwitter.TwitterAppId, SettingsTwitter.TwitterAppSecret, twitterSourceInfo.ClientToken, twitterSourceInfo.ClientSecret);
+            OAuth1Token token = new OAuth1Token(SettingsTwitter.TwitterApiKey, SettingsTwitter.TwitterApiSecretKey, twitterSourceInfo.ClientToken, twitterSourceInfo.ClientSecret);
             var filterTime = taskInfo.EndTime;
             OAuth1Helper oAuth1Helper = new OAuth1Helper(url, token, HttpMethod.Get.ToString().ToUpperInvariant());
             while (true)

@@ -14,12 +14,12 @@ namespace Sample.TwitterSDK
 
         // Configurable settings at run time
 
-        public static string TwitterAppId = string.Empty;
+        public static string TwitterApiKey = string.Empty;
 
-        public static string TwitterAppSecret = string.Empty;
+        public static string TwitterApiSecretKey = string.Empty;
 
-        public static string TwitterClientToken = string.Empty;
+        public static string TwitterAccessToken = string.Empty;
 
-        public static string TwitterClientSecret = string.Empty;
+        public static string TwitterAccessTokenSecret = string.Empty;
     }
 }

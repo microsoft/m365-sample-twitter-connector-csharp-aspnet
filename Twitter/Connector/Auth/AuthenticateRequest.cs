@@ -33,6 +33,15 @@ namespace Sample.TwitterConnector
                         isAuthorized = CheckIfCallerClaimIsAuthorized(claimsPrincipal.Claims);
                     }
                 }
+                if (isAuthorized == false)
+                {
+                    // Try the old shared secret auth check
+                    var sharedSecret = headers.Authorization.Parameter;
+                    if (sharedSecret != null && sharedSecret.Equals(Settings.APISecretKey))
+                    {
+                        isAuthorized = true;
+                    }
+                }
                 return isAuthorized;
             }
             // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Authorization

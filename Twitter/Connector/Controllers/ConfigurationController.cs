@@ -33,28 +33,28 @@ namespace Sample.TwitterConnector
         {
             SettingsTable = azureTableProvider.GetAzureTableReference(Settings.ConfigurationSettingsTableName);
 
-            if (!string.IsNullOrEmpty(configSettings["TwitterAppIdValue"]))
+            if (!string.IsNullOrEmpty(configSettings["TwitterApiKeyValue"]))
             {
-                SettingsTwitter.TwitterAppId = configSettings["TwitterAppIdValue"];
-                await azureTableProvider.InsertOrReplaceEntityAsync(SettingsTable, new ConfigurationSettingsEntity("TwitterAppId", configSettings["TwitterAppIdValue"]));
+                SettingsTwitter.TwitterApiKey = configSettings["TwitterApiKeyValue"];
+                await azureTableProvider.InsertOrReplaceEntityAsync(SettingsTable, new ConfigurationSettingsEntity("TwitterApiKey", configSettings["TwitterApiKeyValue"]));
             }
 
-            if (!string.IsNullOrEmpty(configSettings["TwitterAppSecretValue"]))
+            if (!string.IsNullOrEmpty(configSettings["TwitterApiSecretKeyValue"]))
             {
-                SettingsTwitter.TwitterAppSecret = configSettings["TwitterAppSecretValue"];
-                await azureTableProvider.InsertOrReplaceEntityAsync(SettingsTable, new ConfigurationSettingsEntity("TwitterAppSecret", configSettings["TwitterAppSecretValue"]));
+                SettingsTwitter.TwitterApiSecretKey = configSettings["TwitterApiSecretKeyValue"];
+                await azureTableProvider.InsertOrReplaceEntityAsync(SettingsTable, new ConfigurationSettingsEntity("TwitterApiSecretKey", configSettings["TwitterApiSecretKeyValue"]));
             }
 
-            if (!string.IsNullOrEmpty(configSettings["TwitterClientTokenValue"]))
+            if (!string.IsNullOrEmpty(configSettings["TwitterAccessTokenValue"]))
             {
-                SettingsTwitter.TwitterClientToken = configSettings["TwitterClientTokenValue"];
-                await azureTableProvider.InsertOrReplaceEntityAsync(SettingsTable, new ConfigurationSettingsEntity("TwitterClientToken", configSettings["TwitterClientTokenValue"]));
+                SettingsTwitter.TwitterAccessToken = configSettings["TwitterAccessTokenValue"];
+                await azureTableProvider.InsertOrReplaceEntityAsync(SettingsTable, new ConfigurationSettingsEntity("TwitterAccessToken", configSettings["TwitterAccessTokenValue"]));
             }
 
-            if (!string.IsNullOrEmpty(configSettings["TwitterClientTokenSecretValue"]))
+            if (!string.IsNullOrEmpty(configSettings["TwitterAccessTokenSecretValue"]))
             {
-                SettingsTwitter.TwitterClientSecret = configSettings["TwitterClientTokenSecretValue"];
-                await azureTableProvider.InsertOrReplaceEntityAsync(SettingsTable, new ConfigurationSettingsEntity("TwitterClientSecret", configSettings["TwitterClientTokenSecretValue"]));
+                SettingsTwitter.TwitterAccessTokenSecret = configSettings["TwitterAccessTokenSecretValue"];
+                await azureTableProvider.InsertOrReplaceEntityAsync(SettingsTable, new ConfigurationSettingsEntity("TwitterAccessTokenSecret", configSettings["TwitterAccessTokenSecretValue"]));
             }
 
             if (!string.IsNullOrEmpty(configSettings["AADAppIdValue"]))
