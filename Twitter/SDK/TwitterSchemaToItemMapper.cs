@@ -40,23 +40,8 @@ namespace Sample.TwitterSDK
         public async Task<List<Item>> MapTweetToItemList(Tweet tweet)
         {
             List<Item> listItems = new List<Item>();
-            string ParentId = string.Empty;
-            string ThreadId = string.Empty;
-            if (tweet.IsQuotedStatus && tweet.QuotedStatus != null)
-            {
-                listItems.AddRange(await MapTweetToItemList(tweet.QuotedStatus));
-                ParentId = tweet.QuotedStatus.Tweetid;
-            }
-
-            if(tweet.Retweeted && tweet.RetweetedStatus != null)
-            {
-                listItems.AddRange(await MapTweetToItemList(tweet.RetweetedStatus));
-                ParentId = tweet.RetweetedStatus.Tweetid;
-            }
 
             Item postItem = MapTweetToItem(tweet); 
-            postItem.ParentId = ParentId;
-            postItem.ThreadId = ThreadId;
             listItems.Add(postItem);
 
             return listItems;

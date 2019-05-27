@@ -155,16 +155,6 @@ namespace Sample.TwitterSDK
 
         private async Task<Tweet> EnrichTweetWithAttachments(Tweet tweet)
         {
-            if(tweet.IsQuotedStatus && tweet.QuotedStatus != null)
-            {
-                tweet.QuotedStatus = await EnrichTweetWithAttachments(tweet.QuotedStatus);
-            }
-
-            if (tweet.Retweeted && tweet.RetweetedStatus != null)
-            {
-                tweet.RetweetedStatus = await EnrichTweetWithAttachments(tweet.RetweetedStatus);
-            }
-
             if (tweet.Entities != null && tweet.Entities.MediaObjects != null)
             {
                 List<DefaultMediaTwitter> entitiesMediaObject = null;
