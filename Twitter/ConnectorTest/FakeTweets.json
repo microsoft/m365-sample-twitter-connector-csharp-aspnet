@@ -3,15 +3,15 @@
         "created_at": "Wed Apr 24 08:30:23 +0000 2019",
         "id": 1120968214052261890,
         "id_str": "1120968214052261890",
-        "text": "@jaiswal_ruchi test tweet from P-Account",
+        "full_text": "@test_account test tweet from P-Account",
         "truncated": false,
         "entities": {
             "hashtags": [],
             "symbols": [],
             "user_mentions": [
                 {
-                    "screen_name": "jaiswal_ruchi",
-                    "name": "Ruchi Jaiswal",
+                    "screen_name": "test_account",
+                    "name": "Test Account",
                     "id": 617109008,
                     "id_str": "617109008",
                     "indices": [
@@ -27,12 +27,12 @@
         "in_reply_to_status_id_str": "1114042386714374144",
         "in_reply_to_user_id": 617109008,
         "in_reply_to_user_id_str": "617109008",
-        "in_reply_to_screen_name": "jaiswal_ruchi",
+        "in_reply_to_screen_name": "test_account",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -90,15 +90,15 @@
         "created_at": "Wed Apr 10 10:42:14 +0000 2019",
         "id": 1115927965253218305,
         "id_str": "1115927965253218305",
-        "text": "@jaiswal_ruchi test reply 10 April",
+        "full_text": "@test_account test reply 10 April",
         "truncated": false,
         "entities": {
             "hashtags": [],
             "symbols": [],
             "user_mentions": [
                 {
-                    "screen_name": "jaiswal_ruchi",
-                    "name": "Ruchi Jaiswal",
+                    "screen_name": "test_account",
+                    "name": "Test Account",
                     "id": 617109008,
                     "id_str": "617109008",
                     "indices": [
@@ -114,12 +114,12 @@
         "in_reply_to_status_id_str": "1114042522106564609",
         "in_reply_to_user_id": 617109008,
         "in_reply_to_user_id_str": "617109008",
-        "in_reply_to_screen_name": "jaiswal_ruchi",
+        "in_reply_to_screen_name": "test_account",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -177,12 +177,12 @@
         "created_at": "Wed Apr 10 10:41:08 +0000 2019",
         "id": 1115927687380590592,
         "id_str": "1115927687380590592",
-        "text": "RT @esportslaliga: ¿Quieres mejorar tu plantilla de #FUT? ¡Sorteamos 5 códigos con 4.600 FIFA Points!\n\n1 - Sigue a @esportslaliga 🆕\n2 - ¡Ha…",
+        "full_text": "RT @esportslaliga: ¿Quieres mejorar tu plantilla de #FUT? ¡Sorteamos 5 códigos con 4.600 FIFA Points!\n\n1 - Sigue a @esportslaliga 🆕\n2 - ¡Ha…",
         "truncated": false,
         "entities": {
             "hashtags": [
                 {
-                    "text": "FUT",
+                    "full_text": "FUT",
                     "indices": [
                         52,
                         56
@@ -224,7 +224,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -275,12 +275,12 @@
             "created_at": "Wed Apr 10 08:00:00 +0000 2019",
             "id": 1115887139676409856,
             "id_str": "1115887139676409856",
-            "text": "¿Quieres mejorar tu plantilla de #FUT? ¡Sorteamos 5 códigos con 4.600 FIFA Points!\n\n1 - Sigue a @esportslaliga 🆕\n2… https://t.co/GXU2eHlcAE",
+            "full_text": "¿Quieres mejorar tu plantilla de #FUT? ¡Sorteamos 5 códigos con 4.600 FIFA Points!\n\n1 - Sigue a @esportslaliga 🆕\n2… https://t.co/GXU2eHlcAE",
             "truncated": true,
             "entities": {
                 "hashtags": [
                     {
-                        "text": "FUT",
+                        "full_text": "FUT",
                         "indices": [
                             33,
                             37
@@ -402,7 +402,7 @@
         "created_at": "Wed Apr 10 10:41:00 +0000 2019",
         "id": 1115927654232920064,
         "id_str": "1115927654232920064",
-        "text": "test 10 April 2",
+        "full_text": "test 10 April 2",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -420,7 +420,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -478,7 +478,7 @@
         "created_at": "Wed Apr 10 10:40:49 +0000 2019",
         "id": 1115927610087833601,
         "id_str": "1115927610087833601",
-        "text": "test 10April 1",
+        "full_text": "test 10April 1",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -496,7 +496,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -554,7 +554,7 @@
         "created_at": "Mon Apr 08 06:31:42 +0000 2019",
         "id": 1115140139678871553,
         "id_str": "1115140139678871553",
-        "text": "RT @BillGates: Of the many uses for AI, I’m particularly excited about how it can help improve the lives of the world’s poorest. https://t.…",
+        "full_text": "RT @BillGates: Of the many uses for AI, I’m particularly excited about how it can help improve the lives of the world’s poorest. https://t.…",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -583,7 +583,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -634,7 +634,7 @@
             "created_at": "Sun Apr 07 17:05:00 +0000 2019",
             "id": 1114937129455554562,
             "id_str": "1114937129455554562",
-            "text": "Of the many uses for AI, I’m particularly excited about how it can help improve the lives of the world’s poorest. https://t.co/JFoLoWJPEL",
+            "full_text": "Of the many uses for AI, I’m particularly excited about how it can help improve the lives of the world’s poorest. https://t.co/JFoLoWJPEL",
             "truncated": false,
             "entities": {
                 "hashtags": [],
@@ -742,12 +742,12 @@
         "created_at": "Mon Apr 08 06:31:15 +0000 2019",
         "id": 1115140027472916480,
         "id_str": "1115140027472916480",
-        "text": "RT @Microsoft: Use AI to build a better world. Enter the #AIforGood Idea Challenge for a chance to win $10K in Azure credit: https://t.co/P…",
+        "full_text": "RT @Microsoft: Use AI to build a better world. Enter the #AIforGood Idea Challenge for a chance to win $10K in Azure credit: https://t.co/P…",
         "truncated": false,
         "entities": {
             "hashtags": [
                 {
-                    "text": "AIforGood",
+                    "full_text": "AIforGood",
                     "indices": [
                         57,
                         67
@@ -779,7 +779,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -830,12 +830,12 @@
             "created_at": "Thu Apr 04 03:44:36 +0000 2019",
             "id": 1113648535184920576,
             "id_str": "1113648535184920576",
-            "text": "Use AI to build a better world. Enter the #AIforGood Idea Challenge for a chance to win $10K in Azure credit:… https://t.co/qphvgOtDhJ",
+            "full_text": "Use AI to build a better world. Enter the #AIforGood Idea Challenge for a chance to win $10K in Azure credit:… https://t.co/qphvgOtDhJ",
             "truncated": true,
             "entities": {
                 "hashtags": [
                     {
-                        "text": "AIforGood",
+                        "full_text": "AIforGood",
                         "indices": [
                             42,
                             52
@@ -946,15 +946,15 @@
         "created_at": "Mon Apr 08 06:31:03 +0000 2019",
         "id": 1115139976814047232,
         "id_str": "1115139976814047232",
-        "text": "@jaiswal_ruchi reply 8April",
+        "full_text": "@test_account reply 8April",
         "truncated": false,
         "entities": {
             "hashtags": [],
             "symbols": [],
             "user_mentions": [
                 {
-                    "screen_name": "jaiswal_ruchi",
-                    "name": "Ruchi Jaiswal",
+                    "screen_name": "test_account",
+                    "name": "Test Account",
                     "id": 617109008,
                     "id_str": "617109008",
                     "indices": [
@@ -970,12 +970,12 @@
         "in_reply_to_status_id_str": "1114042386714374144",
         "in_reply_to_user_id": 617109008,
         "in_reply_to_user_id_str": "617109008",
-        "in_reply_to_screen_name": "jaiswal_ruchi",
+        "in_reply_to_screen_name": "test_account",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -1033,7 +1033,7 @@
         "created_at": "Mon Apr 08 06:30:21 +0000 2019",
         "id": 1115139802058428416,
         "id_str": "1115139802058428416",
-        "text": "Test 8th April Test 1",
+        "full_text": "Test 8th April Test 1",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -1051,7 +1051,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -1109,7 +1109,7 @@
         "created_at": "Thu Apr 04 17:02:55 +0000 2019",
         "id": 1113849440375328769,
         "id_str": "1113849440375328769",
-        "text": "tweet 4 April",
+        "full_text": "tweet 4 April",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -1127,7 +1127,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -1185,7 +1185,7 @@
         "created_at": "Mon Apr 01 12:18:13 +0000 2019",
         "id": 1112690628612292608,
         "id_str": "1112690628612292608",
-        "text": "1st April Tweet Parshwa",
+        "full_text": "1st April Tweet Account1",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -1203,7 +1203,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -1261,7 +1261,7 @@
         "created_at": "Fri Mar 15 07:05:43 +0000 2019",
         "id": 1106451391000834048,
         "id_str": "1106451391000834048",
-        "text": "reply over my own tweet",
+        "full_text": "reply over my own tweet",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -1274,12 +1274,12 @@
         "in_reply_to_status_id_str": "1095304683650977792",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -1337,15 +1337,15 @@
         "created_at": "Fri Mar 15 07:04:44 +0000 2019",
         "id": 1106451146867130368,
         "id_str": "1106451146867130368",
-        "text": "@jaiswal_ruchi reply over retweet",
+        "full_text": "@test_account reply over retweet",
         "truncated": false,
         "entities": {
             "hashtags": [],
             "symbols": [],
             "user_mentions": [
                 {
-                    "screen_name": "jaiswal_ruchi",
-                    "name": "Ruchi Jaiswal",
+                    "screen_name": "test_account",
+                    "name": "Test Account",
                     "id": 617109008,
                     "id_str": "617109008",
                     "indices": [
@@ -1361,12 +1361,12 @@
         "in_reply_to_status_id_str": "1094880230907568129",
         "in_reply_to_user_id": 617109008,
         "in_reply_to_user_id_str": "617109008",
-        "in_reply_to_screen_name": "jaiswal_ruchi",
+        "in_reply_to_screen_name": "test_account",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -1424,7 +1424,7 @@
         "created_at": "Fri Mar 15 06:49:42 +0000 2019",
         "id": 1106447363093250048,
         "id_str": "1106447363093250048",
-        "text": "RT @BillGates: While the world gets older, one continent is staying (nearly) the same age. Which continent’s median age has stayed basicall…",
+        "full_text": "RT @BillGates: While the world gets older, one continent is staying (nearly) the same age. Which continent’s median age has stayed basicall…",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -1453,7 +1453,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -1504,7 +1504,7 @@
             "created_at": "Wed Feb 20 16:00:11 +0000 2019",
             "id": 1098250973477199873,
             "id_str": "1098250973477199873",
-            "text": "While the world gets older, one continent is staying (nearly) the same age. Which continent’s median age has stayed… https://t.co/8ghHTjbKul",
+            "full_text": "While the world gets older, one continent is staying (nearly) the same age. Which continent’s median age has stayed… https://t.co/8ghHTjbKul",
             "truncated": true,
             "entities": {
                 "hashtags": [],
@@ -1612,15 +1612,15 @@
         "created_at": "Thu Mar 14 05:53:33 +0000 2019",
         "id": 1106070841421377536,
         "id_str": "1106070841421377536",
-        "text": "RT @jaiswal_ruchi: @imparshwa reply 1",
+        "full_text": "RT @test_account: @twitter_testaccount reply 1",
         "truncated": false,
         "entities": {
             "hashtags": [],
             "symbols": [],
             "user_mentions": [
                 {
-                    "screen_name": "jaiswal_ruchi",
-                    "name": "Ruchi Jaiswal",
+                    "screen_name": "test_account",
+                    "name": "Test Account",
                     "id": 617109008,
                     "id_str": "617109008",
                     "indices": [
@@ -1629,7 +1629,7 @@
                     ]
                 },
                 {
-                    "screen_name": "imparshwa",
+                    "screen_name": "twitter_testaccount",
                     "name": "Contoso Media",
                     "id": 4113725063,
                     "id_str": "4113725063",
@@ -1651,7 +1651,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -1702,14 +1702,14 @@
             "created_at": "Wed Mar 13 09:50:10 +0000 2019",
             "id": 1105768002946039808,
             "id_str": "1105768002946039808",
-            "text": "@imparshwa reply 1",
+            "full_text": "@twitter_testaccount reply 1",
             "truncated": false,
             "entities": {
                 "hashtags": [],
                 "symbols": [],
                 "user_mentions": [
                     {
-                        "screen_name": "imparshwa",
+                        "screen_name": "twitter_testaccount",
                         "name": "Contoso Media",
                         "id": 4113725063,
                         "id_str": "4113725063",
@@ -1726,12 +1726,12 @@
             "in_reply_to_status_id_str": "1105767886742798337",
             "in_reply_to_user_id": 4113725063,
             "in_reply_to_user_id_str": "4113725063",
-            "in_reply_to_screen_name": "imparshwa",
+            "in_reply_to_screen_name": "twitter_testaccount",
             "user": {
                 "id": 617109008,
                 "id_str": "617109008",
-                "name": "Ruchi Jaiswal",
-                "screen_name": "jaiswal_ruchi",
+                "name": "Test Account",
+                "screen_name": "test_account",
                 "location": "",
                 "description": "",
                 "url": null,
@@ -1797,7 +1797,7 @@
         "created_at": "Thu Mar 14 05:53:25 +0000 2019",
         "id": 1106070808290570240,
         "id_str": "1106070808290570240",
-        "text": "Quoted tweets https://t.co/IZsLFuV6qq",
+        "full_text": "Quoted tweets https://t.co/IZsLFuV6qq",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -1806,8 +1806,8 @@
             "urls": [
                 {
                     "url": "https://t.co/IZsLFuV6qq",
-                    "expanded_url": "https://twitter.com/jaiswal_ruchi/status/1105768002946039808",
-                    "display_url": "twitter.com/jaiswal_ruchi/…",
+                    "expanded_url": "https://twitter.com/test_account/status/1105768002946039808",
+                    "display_url": "twitter.com/test_account/…",
                     "indices": [
                         14,
                         37
@@ -1825,7 +1825,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -1879,14 +1879,14 @@
             "created_at": "Wed Mar 13 09:50:10 +0000 2019",
             "id": 1105768002946039808,
             "id_str": "1105768002946039808",
-            "text": "@imparshwa reply 1",
+            "full_text": "@twitter_testaccount reply 1",
             "truncated": false,
             "entities": {
                 "hashtags": [],
                 "symbols": [],
                 "user_mentions": [
                     {
-                        "screen_name": "imparshwa",
+                        "screen_name": "twitter_testaccount",
                         "name": "Contoso Media",
                         "id": 4113725063,
                         "id_str": "4113725063",
@@ -1903,12 +1903,12 @@
             "in_reply_to_status_id_str": "1105767886742798337",
             "in_reply_to_user_id": 4113725063,
             "in_reply_to_user_id_str": "4113725063",
-            "in_reply_to_screen_name": "imparshwa",
+            "in_reply_to_screen_name": "twitter_testaccount",
             "user": {
                 "id": 617109008,
                 "id_str": "617109008",
-                "name": "Ruchi Jaiswal",
-                "screen_name": "jaiswal_ruchi",
+                "name": "Test Account",
+                "screen_name": "test_account",
                 "location": "",
                 "description": "",
                 "url": null,
@@ -1974,15 +1974,15 @@
         "created_at": "Thu Mar 14 05:53:00 +0000 2019",
         "id": 1106070705987354624,
         "id_str": "1106070705987354624",
-        "text": "RT @imparshwa: Retweet 1 https://t.co/Yv4yRAJWcg",
+        "full_text": "RT @twitter_testaccount: Retweet 1 https://t.co/Yv4yRAJWcg",
         "truncated": false,
         "entities": {
             "hashtags": [],
             "symbols": [],
             "user_mentions": [
                 {
-                    "screen_name": "imparshwa",
-                    "name": "Parshwa Shah",
+                    "screen_name": "twitter_testaccount",
+                    "name": "Contoso Media",
                     "id": 4113725063,
                     "id_str": "4113725063",
                     "indices": [
@@ -1994,8 +1994,8 @@
             "urls": [
                 {
                     "url": "https://t.co/Yv4yRAJWcg",
-                    "expanded_url": "https://twitter.com/imparshwa/status/1105721650325147648",
-                    "display_url": "twitter.com/imparshwa/stat…",
+                    "expanded_url": "https://twitter.com/twitter_testaccount/status/1105721650325147648",
+                    "display_url": "twitter.com/twitter_testaccount/stat…",
                     "indices": [
                         25,
                         48
@@ -2013,7 +2013,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -2064,7 +2064,7 @@
             "created_at": "Wed Mar 13 09:49:43 +0000 2019",
             "id": 1105767886742798337,
             "id_str": "1105767886742798337",
-            "text": "Retweet 1 https://t.co/Yv4yRAJWcg",
+            "full_text": "Retweet 1 https://t.co/Yv4yRAJWcg",
             "truncated": false,
             "entities": {
                 "hashtags": [],
@@ -2073,8 +2073,8 @@
                 "urls": [
                     {
                         "url": "https://t.co/Yv4yRAJWcg",
-                        "expanded_url": "https://twitter.com/imparshwa/status/1105721650325147648",
-                        "display_url": "twitter.com/imparshwa/stat…",
+                        "expanded_url": "https://twitter.com/twitter_testaccount/status/1105721650325147648",
+                        "display_url": "twitter.com/twitter_testaccount/stat…",
                         "indices": [
                             10,
                             33
@@ -2092,7 +2092,7 @@
                 "id": 4113725063,
                 "id_str": "4113725063",
                 "name": "Contoso Media",
-                "screen_name": "imparshwa",
+                "screen_name": "twitter_testaccount",
                 "location": "Ahmadabad City, India",
                 "description": "Always believe something wonderful is about to happen.🙃",
                 "url": null,
@@ -2146,7 +2146,7 @@
                 "created_at": "Wed Mar 13 06:45:59 +0000 2019",
                 "id": 1105721650325147648,
                 "id_str": "1105721650325147648",
-                "text": "new Tweet https://t.co/SvmFdKSs4j",
+                "full_text": "new Tweet https://t.co/SvmFdKSs4j",
                 "truncated": false,
                 "entities": {
                     "hashtags": [],
@@ -2165,7 +2165,7 @@
                             "media_url_https": "https://pbs.twimg.com/media/D1hP7ksWkAIqMjZ.jpg",
                             "url": "https://t.co/SvmFdKSs4j",
                             "display_url": "pic.twitter.com/SvmFdKSs4j",
-                            "expanded_url": "https://twitter.com/imparshwa/status/1105721650325147648/photo/1",
+                            "expanded_url": "https://twitter.com/twitter_testaccount/status/1105721650325147648/photo/1",
                             "type": "photo",
                             "sizes": {
                                 "medium": {
@@ -2205,7 +2205,7 @@
                             "media_url_https": "https://pbs.twimg.com/media/D1hP7ksWkAIqMjZ.jpg",
                             "url": "https://t.co/SvmFdKSs4j",
                             "display_url": "pic.twitter.com/SvmFdKSs4j",
-                            "expanded_url": "https://twitter.com/imparshwa/status/1105721650325147648/photo/1",
+                            "expanded_url": "https://twitter.com/twitter_testaccount/status/1105721650325147648/photo/1",
                             "type": "photo",
                             "sizes": {
                                 "medium": {
@@ -2241,7 +2241,7 @@
                             "media_url_https": "https://pbs.twimg.com/media/D1hP9NPXcAABFoG.jpg",
                             "url": "https://t.co/SvmFdKSs4j",
                             "display_url": "pic.twitter.com/SvmFdKSs4j",
-                            "expanded_url": "https://twitter.com/imparshwa/status/1105721650325147648/photo/1",
+                            "expanded_url": "https://twitter.com/twitter_testaccount/status/1105721650325147648/photo/1",
                             "type": "photo",
                             "sizes": {
                                 "thumb": {
@@ -2278,7 +2278,7 @@
                     "id": 4113725063,
                     "id_str": "4113725063",
                     "name": "Contoso Media",
-                    "screen_name": "imparshwa",
+                    "screen_name": "twitter_testaccount",
                     "location": "Ahmadabad City, India",
                     "description": "Always believe something wonderful is about to happen.🙃",
                     "url": null,
@@ -2354,7 +2354,7 @@
         "created_at": "Wed Mar 13 09:49:43 +0000 2019",
         "id": 1105767886742798337,
         "id_str": "1105767886742798337",
-        "text": "Retweet 1 https://t.co/Yv4yRAJWcg",
+        "full_text": "Retweet 1 https://t.co/Yv4yRAJWcg",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -2363,8 +2363,8 @@
             "urls": [
                 {
                     "url": "https://t.co/Yv4yRAJWcg",
-                    "expanded_url": "https://twitter.com/imparshwa/status/1105721650325147648",
-                    "display_url": "twitter.com/imparshwa/stat…",
+                    "expanded_url": "https://twitter.com/twitter_testaccount/status/1105721650325147648",
+                    "display_url": "twitter.com/twitter_testaccount/stat…",
                     "indices": [
                         10,
                         33
@@ -2382,7 +2382,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -2436,7 +2436,7 @@
             "created_at": "Wed Mar 13 06:45:59 +0000 2019",
             "id": 1105721650325147648,
             "id_str": "1105721650325147648",
-            "text": "new Tweet https://t.co/SvmFdKSs4j",
+            "full_text": "new Tweet https://t.co/SvmFdKSs4j",
             "truncated": false,
             "entities": {
                 "hashtags": [],
@@ -2455,7 +2455,7 @@
                         "media_url_https": "https://pbs.twimg.com/media/D1hP7ksWkAIqMjZ.jpg",
                         "url": "https://t.co/SvmFdKSs4j",
                         "display_url": "pic.twitter.com/SvmFdKSs4j",
-                        "expanded_url": "https://twitter.com/imparshwa/status/1105721650325147648/photo/1",
+                        "expanded_url": "https://twitter.com/twitter_testaccount/status/1105721650325147648/photo/1",
                         "type": "photo",
                         "sizes": {
                             "medium": {
@@ -2495,7 +2495,7 @@
                         "media_url_https": "https://pbs.twimg.com/media/D1hP7ksWkAIqMjZ.jpg",
                         "url": "https://t.co/SvmFdKSs4j",
                         "display_url": "pic.twitter.com/SvmFdKSs4j",
-                        "expanded_url": "https://twitter.com/imparshwa/status/1105721650325147648/photo/1",
+                        "expanded_url": "https://twitter.com/twitter_testaccount/status/1105721650325147648/photo/1",
                         "type": "photo",
                         "sizes": {
                             "medium": {
@@ -2531,7 +2531,7 @@
                         "media_url_https": "https://pbs.twimg.com/media/D1hP9NPXcAABFoG.jpg",
                         "url": "https://t.co/SvmFdKSs4j",
                         "display_url": "pic.twitter.com/SvmFdKSs4j",
-                        "expanded_url": "https://twitter.com/imparshwa/status/1105721650325147648/photo/1",
+                        "expanded_url": "https://twitter.com/twitter_testaccount/status/1105721650325147648/photo/1",
                         "type": "photo",
                         "sizes": {
                             "thumb": {
@@ -2568,7 +2568,7 @@
                 "id": 4113725063,
                 "id_str": "4113725063",
                 "name": "Contoso Media",
-                "screen_name": "imparshwa",
+                "screen_name": "twitter_testaccount",
                 "location": "Ahmadabad City, India",
                 "description": "Always believe something wonderful is about to happen.🙃",
                 "url": null,
@@ -2634,7 +2634,7 @@
         "created_at": "Wed Mar 13 06:45:59 +0000 2019",
         "id": 1105721650325147648,
         "id_str": "1105721650325147648",
-        "text": "new Tweet https://t.co/SvmFdKSs4j",
+        "full_text": "new Tweet https://t.co/SvmFdKSs4j",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -2653,7 +2653,7 @@
                     "media_url_https": "https://pbs.twimg.com/media/D1hP7ksWkAIqMjZ.jpg",
                     "url": "https://t.co/SvmFdKSs4j",
                     "display_url": "pic.twitter.com/SvmFdKSs4j",
-                    "expanded_url": "https://twitter.com/imparshwa/status/1105721650325147648/photo/1",
+                    "expanded_url": "https://twitter.com/twitter_testaccount/status/1105721650325147648/photo/1",
                     "type": "photo",
                     "sizes": {
                         "medium": {
@@ -2693,7 +2693,7 @@
                     "media_url_https": "https://pbs.twimg.com/media/D1hP7ksWkAIqMjZ.jpg",
                     "url": "https://t.co/SvmFdKSs4j",
                     "display_url": "pic.twitter.com/SvmFdKSs4j",
-                    "expanded_url": "https://twitter.com/imparshwa/status/1105721650325147648/photo/1",
+                    "expanded_url": "https://twitter.com/twitter_testaccount/status/1105721650325147648/photo/1",
                     "type": "photo",
                     "sizes": {
                         "medium": {
@@ -2729,7 +2729,7 @@
                     "media_url_https": "https://pbs.twimg.com/media/D1hP9NPXcAABFoG.jpg",
                     "url": "https://t.co/SvmFdKSs4j",
                     "display_url": "pic.twitter.com/SvmFdKSs4j",
-                    "expanded_url": "https://twitter.com/imparshwa/status/1105721650325147648/photo/1",
+                    "expanded_url": "https://twitter.com/twitter_testaccount/status/1105721650325147648/photo/1",
                     "type": "photo",
                     "sizes": {
                         "thumb": {
@@ -2766,7 +2766,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -2825,12 +2825,12 @@
         "created_at": "Mon Mar 04 03:27:27 +0000 2019",
         "id": 1102410196091957248,
         "id_str": "1102410196091957248",
-        "text": "@GooglePlay @Google @GoogleIndia @googledevs any ideas on what might be wrong? #Googleplay",
+        "full_text": "@GooglePlay @Google @GoogleIndia @googledevs any ideas on what might be wrong? #Googleplay",
         "truncated": false,
         "entities": {
             "hashtags": [
                 {
-                    "text": "Googleplay",
+                    "full_text": "Googleplay",
                     "indices": [
                         79,
                         90
@@ -2887,12 +2887,12 @@
         "in_reply_to_status_id_str": "1102336518478159873",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -2950,7 +2950,7 @@
         "created_at": "Sun Mar 03 22:34:41 +0000 2019",
         "id": 1102336518478159873,
         "id_str": "1102336518478159873",
-        "text": "@GooglePlay It has been 3 days since we published our app. Any idea when it might start appearing in playstore sear… https://t.co/PQNpY7i1tz",
+        "full_text": "@GooglePlay It has been 3 days since we published our app. Any idea when it might start appearing in playstore sear… https://t.co/PQNpY7i1tz",
         "truncated": true,
         "entities": {
             "hashtags": [],
@@ -2989,7 +2989,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -3048,7 +3048,7 @@
         "created_at": "Wed Feb 20 17:34:06 +0000 2019",
         "id": 1098274609848307713,
         "id_str": "1098274609848307713",
-        "text": "testing retweet https://t.co/5QklgcpYfo",
+        "full_text": "testing retweet https://t.co/5QklgcpYfo",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -3057,8 +3057,8 @@
             "urls": [
                 {
                     "url": "https://t.co/5QklgcpYfo",
-                    "expanded_url": "https://twitter.com/jaiswal_ruchi/status/1098273736283906048",
-                    "display_url": "twitter.com/jaiswal_ruchi/…",
+                    "expanded_url": "https://twitter.com/test_account/status/1098273736283906048",
+                    "display_url": "twitter.com/test_account/…",
                     "indices": [
                         16,
                         39
@@ -3076,7 +3076,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -3130,7 +3130,7 @@
             "created_at": "Wed Feb 20 17:30:38 +0000 2019",
             "id": 1098273736283906048,
             "id_str": "1098273736283906048",
-            "text": "👍 https://t.co/YQOHP0xzEz",
+            "full_text": "👍 https://t.co/YQOHP0xzEz",
             "truncated": false,
             "entities": {
                 "hashtags": [],
@@ -3157,8 +3157,8 @@
             "user": {
                 "id": 617109008,
                 "id_str": "617109008",
-                "name": "Ruchi Jaiswal",
-                "screen_name": "jaiswal_ruchi",
+                "name": "Test Account",
+                "screen_name": "test_account",
                 "location": "",
                 "description": "",
                 "url": null,
@@ -3227,7 +3227,7 @@
         "created_at": "Tue Feb 12 12:52:41 +0000 2019",
         "id": 1095304683650977792,
         "id_str": "1095304683650977792",
-        "text": "new5",
+        "full_text": "new5",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -3240,12 +3240,12 @@
         "in_reply_to_status_id_str": "1095304682153615360",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -3303,7 +3303,7 @@
         "created_at": "Tue Feb 12 12:52:40 +0000 2019",
         "id": 1095304682153615360,
         "id_str": "1095304682153615360",
-        "text": "new4",
+        "full_text": "new4",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -3316,12 +3316,12 @@
         "in_reply_to_status_id_str": "1095304680605958145",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -3379,7 +3379,7 @@
         "created_at": "Tue Feb 12 12:52:40 +0000 2019",
         "id": 1095304680605958145,
         "id_str": "1095304680605958145",
-        "text": "new 3",
+        "full_text": "new 3",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -3392,12 +3392,12 @@
         "in_reply_to_status_id_str": "1095304678995304448",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -3455,7 +3455,7 @@
         "created_at": "Tue Feb 12 12:52:39 +0000 2019",
         "id": 1095304678995304448,
         "id_str": "1095304678995304448",
-        "text": "2new",
+        "full_text": "2new",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -3468,12 +3468,12 @@
         "in_reply_to_status_id_str": "1095304677611180032",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -3531,7 +3531,7 @@
         "created_at": "Tue Feb 12 12:52:39 +0000 2019",
         "id": 1095304677611180032,
         "id_str": "1095304677611180032",
-        "text": "new 1",
+        "full_text": "new 1",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -3544,12 +3544,12 @@
         "in_reply_to_status_id_str": "1095304243517509632",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -3607,7 +3607,7 @@
         "created_at": "Tue Feb 12 12:50:56 +0000 2019",
         "id": 1095304243517509632,
         "id_str": "1095304243517509632",
-        "text": "24",
+        "full_text": "24",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -3620,12 +3620,12 @@
         "in_reply_to_status_id_str": "1095304241726541824",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -3683,7 +3683,7 @@
         "created_at": "Tue Feb 12 12:50:55 +0000 2019",
         "id": 1095304241726541824,
         "id_str": "1095304241726541824",
-        "text": "23",
+        "full_text": "23",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -3696,12 +3696,12 @@
         "in_reply_to_status_id_str": "1095304240266915840",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -3759,7 +3759,7 @@
         "created_at": "Tue Feb 12 12:50:55 +0000 2019",
         "id": 1095304240266915840,
         "id_str": "1095304240266915840",
-        "text": "22",
+        "full_text": "22",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -3772,12 +3772,12 @@
         "in_reply_to_status_id_str": "1095304238580858885",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -3835,7 +3835,7 @@
         "created_at": "Tue Feb 12 12:50:54 +0000 2019",
         "id": 1095304238580858885,
         "id_str": "1095304238580858885",
-        "text": "21",
+        "full_text": "21",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -3848,12 +3848,12 @@
         "in_reply_to_status_id_str": "1095304237012127744",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -3911,7 +3911,7 @@
         "created_at": "Tue Feb 12 12:50:54 +0000 2019",
         "id": 1095304237012127744,
         "id_str": "1095304237012127744",
-        "text": "20",
+        "full_text": "20",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -3924,12 +3924,12 @@
         "in_reply_to_status_id_str": "1095304235527405568",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -3987,7 +3987,7 @@
         "created_at": "Tue Feb 12 12:50:54 +0000 2019",
         "id": 1095304235527405568,
         "id_str": "1095304235527405568",
-        "text": "19",
+        "full_text": "19",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -4000,12 +4000,12 @@
         "in_reply_to_status_id_str": "1095304234021634048",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -4063,7 +4063,7 @@
         "created_at": "Tue Feb 12 12:50:53 +0000 2019",
         "id": 1095304234021634048,
         "id_str": "1095304234021634048",
-        "text": "18",
+        "full_text": "18",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -4076,12 +4076,12 @@
         "in_reply_to_status_id_str": "1095304232545255437",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -4139,7 +4139,7 @@
         "created_at": "Tue Feb 12 12:50:53 +0000 2019",
         "id": 1095304232545255437,
         "id_str": "1095304232545255437",
-        "text": "17",
+        "full_text": "17",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -4152,12 +4152,12 @@
         "in_reply_to_status_id_str": "1095304231073001472",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -4215,7 +4215,7 @@
         "created_at": "Tue Feb 12 12:50:53 +0000 2019",
         "id": 1095304231073001472,
         "id_str": "1095304231073001472",
-        "text": "16",
+        "full_text": "16",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -4228,12 +4228,12 @@
         "in_reply_to_status_id_str": "1095304229508562949",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -4291,7 +4291,7 @@
         "created_at": "Tue Feb 12 12:50:52 +0000 2019",
         "id": 1095304229508562949,
         "id_str": "1095304229508562949",
-        "text": "15",
+        "full_text": "15",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -4304,12 +4304,12 @@
         "in_reply_to_status_id_str": "1095304228040527874",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -4367,7 +4367,7 @@
         "created_at": "Tue Feb 12 12:50:52 +0000 2019",
         "id": 1095304228040527874,
         "id_str": "1095304228040527874",
-        "text": "14",
+        "full_text": "14",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -4380,12 +4380,12 @@
         "in_reply_to_status_id_str": "1095304226492829696",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -4443,7 +4443,7 @@
         "created_at": "Tue Feb 12 12:50:52 +0000 2019",
         "id": 1095304226492829696,
         "id_str": "1095304226492829696",
-        "text": "13",
+        "full_text": "13",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -4456,12 +4456,12 @@
         "in_reply_to_status_id_str": "1095304224756432896",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -4519,7 +4519,7 @@
         "created_at": "Tue Feb 12 12:50:51 +0000 2019",
         "id": 1095304224756432896,
         "id_str": "1095304224756432896",
-        "text": "12",
+        "full_text": "12",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -4532,12 +4532,12 @@
         "in_reply_to_status_id_str": "1095304223049334784",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -4595,7 +4595,7 @@
         "created_at": "Tue Feb 12 12:50:51 +0000 2019",
         "id": 1095304223049334784,
         "id_str": "1095304223049334784",
-        "text": "11",
+        "full_text": "11",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -4608,12 +4608,12 @@
         "in_reply_to_status_id_str": "1095304221493264384",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -4671,7 +4671,7 @@
         "created_at": "Tue Feb 12 12:50:50 +0000 2019",
         "id": 1095304221493264384,
         "id_str": "1095304221493264384",
-        "text": "10",
+        "full_text": "10",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -4684,12 +4684,12 @@
         "in_reply_to_status_id_str": "1095304219853275136",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -4747,7 +4747,7 @@
         "created_at": "Tue Feb 12 12:50:50 +0000 2019",
         "id": 1095304219853275136,
         "id_str": "1095304219853275136",
-        "text": "9",
+        "full_text": "9",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -4760,12 +4760,12 @@
         "in_reply_to_status_id_str": "1095304218313981952",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -4823,7 +4823,7 @@
         "created_at": "Tue Feb 12 12:50:50 +0000 2019",
         "id": 1095304218313981952,
         "id_str": "1095304218313981952",
-        "text": "8",
+        "full_text": "8",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -4836,12 +4836,12 @@
         "in_reply_to_status_id_str": "1095304216745336832",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -4899,7 +4899,7 @@
         "created_at": "Tue Feb 12 12:50:49 +0000 2019",
         "id": 1095304216745336832,
         "id_str": "1095304216745336832",
-        "text": "7",
+        "full_text": "7",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -4912,12 +4912,12 @@
         "in_reply_to_status_id_str": "1095304215235309568",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -4975,7 +4975,7 @@
         "created_at": "Tue Feb 12 12:50:49 +0000 2019",
         "id": 1095304215235309568,
         "id_str": "1095304215235309568",
-        "text": "6",
+        "full_text": "6",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -4988,12 +4988,12 @@
         "in_reply_to_status_id_str": "1095304213670834176",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -5051,7 +5051,7 @@
         "created_at": "Tue Feb 12 12:50:48 +0000 2019",
         "id": 1095304213670834176,
         "id_str": "1095304213670834176",
-        "text": "5",
+        "full_text": "5",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -5064,12 +5064,12 @@
         "in_reply_to_status_id_str": "1095304212165079040",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -5127,7 +5127,7 @@
         "created_at": "Tue Feb 12 12:50:48 +0000 2019",
         "id": 1095304212165079040,
         "id_str": "1095304212165079040",
-        "text": "4",
+        "full_text": "4",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -5140,12 +5140,12 @@
         "in_reply_to_status_id_str": "1095304210697150469",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -5203,7 +5203,7 @@
         "created_at": "Tue Feb 12 12:50:48 +0000 2019",
         "id": 1095304210697150469,
         "id_str": "1095304210697150469",
-        "text": "3",
+        "full_text": "3",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -5216,12 +5216,12 @@
         "in_reply_to_status_id_str": "1095304209241722881",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -5279,7 +5279,7 @@
         "created_at": "Tue Feb 12 12:50:47 +0000 2019",
         "id": 1095304209241722881,
         "id_str": "1095304209241722881",
-        "text": "2",
+        "full_text": "2",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -5292,12 +5292,12 @@
         "in_reply_to_status_id_str": "1095304207698145286",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -5355,7 +5355,7 @@
         "created_at": "Tue Feb 12 12:50:47 +0000 2019",
         "id": 1095304207698145286,
         "id_str": "1095304207698145286",
-        "text": "1",
+        "full_text": "1",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -5368,12 +5368,12 @@
         "in_reply_to_status_id_str": "1095304206255353862",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -5431,7 +5431,7 @@
         "created_at": "Tue Feb 12 12:50:47 +0000 2019",
         "id": 1095304206255353862,
         "id_str": "1095304206255353862",
-        "text": "see nesting",
+        "full_text": "see nesting",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -5449,7 +5449,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -5507,14 +5507,14 @@
         "created_at": "Tue Feb 12 05:35:42 +0000 2019",
         "id": 1095194715497082880,
         "id_str": "1095194715497082880",
-        "text": "RT @imparshwa: tweet test12feb",
+        "full_text": "RT @twitter_testaccount: tweet test12feb",
         "truncated": false,
         "entities": {
             "hashtags": [],
             "symbols": [],
             "user_mentions": [
                 {
-                    "screen_name": "imparshwa",
+                    "screen_name": "twitter_testaccount",
                     "name": "Contoso Media",
                     "id": 4113725063,
                     "id_str": "4113725063",
@@ -5536,7 +5536,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -5587,7 +5587,7 @@
             "created_at": "Tue Feb 12 05:29:09 +0000 2019",
             "id": 1095193068255526912,
             "id_str": "1095193068255526912",
-            "text": "tweet test12feb",
+            "full_text": "tweet test12feb",
             "truncated": false,
             "entities": {
                 "hashtags": [],
@@ -5605,7 +5605,7 @@
                 "id": 4113725063,
                 "id_str": "4113725063",
                 "name": "Contoso Media",
-                "screen_name": "imparshwa",
+                "screen_name": "twitter_testaccount",
                 "location": "Ahmadabad City, India",
                 "description": "Always believe something wonderful is about to happen.🙃",
                 "url": null,
@@ -5670,7 +5670,7 @@
         "created_at": "Tue Feb 12 05:35:33 +0000 2019",
         "id": 1095194678629158912,
         "id_str": "1095194678629158912",
-        "text": "test2 https://t.co/ihkszfeg4F",
+        "full_text": "test2 https://t.co/ihkszfeg4F",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -5679,8 +5679,8 @@
             "urls": [
                 {
                     "url": "https://t.co/ihkszfeg4F",
-                    "expanded_url": "https://twitter.com/imparshwa/status/1095193068255526912",
-                    "display_url": "twitter.com/imparshwa/stat…",
+                    "expanded_url": "https://twitter.com/twitter_testaccount/status/1095193068255526912",
+                    "display_url": "twitter.com/twitter_testaccount/stat…",
                     "indices": [
                         6,
                         29
@@ -5698,7 +5698,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -5752,7 +5752,7 @@
             "created_at": "Tue Feb 12 05:29:09 +0000 2019",
             "id": 1095193068255526912,
             "id_str": "1095193068255526912",
-            "text": "tweet test12feb",
+            "full_text": "tweet test12feb",
             "truncated": false,
             "entities": {
                 "hashtags": [],
@@ -5770,7 +5770,7 @@
                 "id": 4113725063,
                 "id_str": "4113725063",
                 "name": "Contoso Media",
-                "screen_name": "imparshwa",
+                "screen_name": "twitter_testaccount",
                 "location": "Ahmadabad City, India",
                 "description": "Always believe something wonderful is about to happen.🙃",
                 "url": null,
@@ -5835,7 +5835,7 @@
         "created_at": "Tue Feb 12 05:35:22 +0000 2019",
         "id": 1095194629853663233,
         "id_str": "1095194629853663233",
-        "text": "test1 https://t.co/ihkszfeg4F",
+        "full_text": "test1 https://t.co/ihkszfeg4F",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -5844,8 +5844,8 @@
             "urls": [
                 {
                     "url": "https://t.co/ihkszfeg4F",
-                    "expanded_url": "https://twitter.com/imparshwa/status/1095193068255526912",
-                    "display_url": "twitter.com/imparshwa/stat…",
+                    "expanded_url": "https://twitter.com/twitter_testaccount/status/1095193068255526912",
+                    "display_url": "twitter.com/twitter_testaccount/stat…",
                     "indices": [
                         6,
                         29
@@ -5863,7 +5863,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -5917,7 +5917,7 @@
             "created_at": "Tue Feb 12 05:29:09 +0000 2019",
             "id": 1095193068255526912,
             "id_str": "1095193068255526912",
-            "text": "tweet test12feb",
+            "full_text": "tweet test12feb",
             "truncated": false,
             "entities": {
                 "hashtags": [],
@@ -5935,7 +5935,7 @@
                 "id": 4113725063,
                 "id_str": "4113725063",
                 "name": "Contoso Media",
-                "screen_name": "imparshwa",
+                "screen_name": "twitter_testaccount",
                 "location": "Ahmadabad City, India",
                 "description": "Always believe something wonderful is about to happen.🙃",
                 "url": null,
@@ -6000,7 +6000,7 @@
         "created_at": "Tue Feb 12 05:30:08 +0000 2019",
         "id": 1095193313840431104,
         "id_str": "1095193313840431104",
-        "text": "test12feb reply1 -sub reply1",
+        "full_text": "test12feb reply1 -sub reply1",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -6013,12 +6013,12 @@
         "in_reply_to_status_id_str": "1095193134915616768",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -6076,7 +6076,7 @@
         "created_at": "Tue Feb 12 05:29:38 +0000 2019",
         "id": 1095193188070055936,
         "id_str": "1095193188070055936",
-        "text": "test12feb reply2",
+        "full_text": "test12feb reply2",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -6089,12 +6089,12 @@
         "in_reply_to_status_id_str": "1095193068255526912",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -6152,7 +6152,7 @@
         "created_at": "Tue Feb 12 05:29:25 +0000 2019",
         "id": 1095193134915616768,
         "id_str": "1095193134915616768",
-        "text": "test12feb reply1",
+        "full_text": "test12feb reply1",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -6165,12 +6165,12 @@
         "in_reply_to_status_id_str": "1095193068255526912",
         "in_reply_to_user_id": 4113725063,
         "in_reply_to_user_id_str": "4113725063",
-        "in_reply_to_screen_name": "imparshwa",
+        "in_reply_to_screen_name": "twitter_testaccount",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -6228,7 +6228,7 @@
         "created_at": "Tue Feb 12 05:29:09 +0000 2019",
         "id": 1095193068255526912,
         "id_str": "1095193068255526912",
-        "text": "tweet test12feb",
+        "full_text": "tweet test12feb",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -6246,7 +6246,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -6304,15 +6304,15 @@
         "created_at": "Mon Feb 11 08:45:29 +0000 2019",
         "id": 1094880085847539712,
         "id_str": "1094880085847539712",
-        "text": "@jaiswal_ruchi reply step 1 -1",
+        "full_text": "@test_account reply step 1 -1",
         "truncated": false,
         "entities": {
             "hashtags": [],
             "symbols": [],
             "user_mentions": [
                 {
-                    "screen_name": "jaiswal_ruchi",
-                    "name": "Ruchi Jaiswal",
+                    "screen_name": "test_account",
+                    "name": "Test Account",
                     "id": 617109008,
                     "id_str": "617109008",
                     "indices": [
@@ -6328,12 +6328,12 @@
         "in_reply_to_status_id_str": "1094879965181550593",
         "in_reply_to_user_id": 617109008,
         "in_reply_to_user_id_str": "617109008",
-        "in_reply_to_screen_name": "jaiswal_ruchi",
+        "in_reply_to_screen_name": "test_account",
         "user": {
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -6391,7 +6391,7 @@
         "created_at": "Mon Feb 11 08:44:35 +0000 2019",
         "id": 1094879863012380672,
         "id_str": "1094879863012380672",
-        "text": "retweet p1 https://t.co/7MMil50bQF",
+        "full_text": "retweet p1 https://t.co/7MMil50bQF",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -6400,8 +6400,8 @@
             "urls": [
                 {
                     "url": "https://t.co/7MMil50bQF",
-                    "expanded_url": "https://twitter.com/jaiswal_ruchi/status/1094879781827555328",
-                    "display_url": "twitter.com/jaiswal_ruchi/…",
+                    "expanded_url": "https://twitter.com/test_account/status/1094879781827555328",
+                    "display_url": "twitter.com/test_account/…",
                     "indices": [
                         11,
                         34
@@ -6419,7 +6419,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -6473,7 +6473,7 @@
             "created_at": "Mon Feb 11 08:44:16 +0000 2019",
             "id": 1094879781827555328,
             "id_str": "1094879781827555328",
-            "text": "retweet r1 https://t.co/oOZuYqkXoz",
+            "full_text": "retweet r1 https://t.co/oOZuYqkXoz",
             "truncated": false,
             "entities": {
                 "hashtags": [],
@@ -6482,8 +6482,8 @@
                 "urls": [
                     {
                         "url": "https://t.co/oOZuYqkXoz",
-                        "expanded_url": "https://twitter.com/imparshwa/status/1094879637468073984",
-                        "display_url": "twitter.com/imparshwa/stat…",
+                        "expanded_url": "https://twitter.com/twitter_testaccount/status/1094879637468073984",
+                        "display_url": "twitter.com/twitter_testaccount/stat…",
                         "indices": [
                             11,
                             34
@@ -6500,8 +6500,8 @@
             "user": {
                 "id": 617109008,
                 "id_str": "617109008",
-                "name": "Ruchi Jaiswal",
-                "screen_name": "jaiswal_ruchi",
+                "name": "Test Account",
+                "screen_name": "test_account",
                 "location": "",
                 "description": "",
                 "url": null,
@@ -6570,7 +6570,7 @@
         "created_at": "Mon Feb 11 08:43:42 +0000 2019",
         "id": 1094879637468073984,
         "id_str": "1094879637468073984",
-        "text": "tweet1",
+        "full_text": "tweet1",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -6588,7 +6588,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -6646,7 +6646,7 @@
         "created_at": "Fri Feb 08 04:19:19 +0000 2019",
         "id": 1093725941732388864,
         "id_str": "1093725941732388864",
-        "text": "RT @LaLiga: Da igual lo que le tires,\n😅 ¡ÉL LO PARA! 😅\n\n📛 O B L A K 📛 https://t.co/lJukJSFFTP",
+        "full_text": "RT @LaLiga: Da igual lo que le tires,\n😅 ¡ÉL LO PARA! 😅\n\n📛 O B L A K 📛 https://t.co/lJukJSFFTP",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -6875,7 +6875,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -6926,7 +6926,7 @@
             "created_at": "Thu Feb 07 11:01:00 +0000 2019",
             "id": 1093464639747219457,
             "id_str": "1093464639747219457",
-            "text": "Da igual lo que le tires,\n😅 ¡ÉL LO PARA! 😅\n\n📛 O B L A K 📛 https://t.co/lJukJSFFTP",
+            "full_text": "Da igual lo que le tires,\n😅 ¡ÉL LO PARA! 😅\n\n📛 O B L A K 📛 https://t.co/lJukJSFFTP",
             "truncated": false,
             "entities": {
                 "hashtags": [],
@@ -7156,7 +7156,7 @@
         "created_at": "Fri Feb 08 03:57:31 +0000 2019",
         "id": 1093720456534941696,
         "id_str": "1093720456534941696",
-        "text": "Quoted Retweet https://t.co/7XKN7O30jw",
+        "full_text": "Quoted Retweet https://t.co/7XKN7O30jw",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -7165,8 +7165,8 @@
             "urls": [
                 {
                     "url": "https://t.co/7XKN7O30jw",
-                    "expanded_url": "https://twitter.com/jaiswal_ruchi/status/1093720269863206912",
-                    "display_url": "twitter.com/jaiswal_ruchi/…",
+                    "expanded_url": "https://twitter.com/test_account/status/1093720269863206912",
+                    "display_url": "twitter.com/test_account/…",
                     "indices": [
                         15,
                         38
@@ -7184,7 +7184,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -7238,7 +7238,7 @@
             "created_at": "Fri Feb 08 03:56:47 +0000 2019",
             "id": 1093720269863206912,
             "id_str": "1093720269863206912",
-            "text": "test for quote tweet",
+            "full_text": "test for quote tweet",
             "truncated": false,
             "entities": {
                 "hashtags": [],
@@ -7255,8 +7255,8 @@
             "user": {
                 "id": 617109008,
                 "id_str": "617109008",
-                "name": "Ruchi Jaiswal",
-                "screen_name": "jaiswal_ruchi",
+                "name": "Test Account",
+                "screen_name": "test_account",
                 "location": "",
                 "description": "",
                 "url": null,
@@ -7322,15 +7322,15 @@
         "created_at": "Thu Feb 07 06:15:59 +0000 2019",
         "id": 1093392912413532162,
         "id_str": "1093392912413532162",
-        "text": "RT @jaiswal_ruchi: reply 1- sub reply",
+        "full_text": "RT @test_account: reply 1- sub reply",
         "truncated": false,
         "entities": {
             "hashtags": [],
             "symbols": [],
             "user_mentions": [
                 {
-                    "screen_name": "jaiswal_ruchi",
-                    "name": "Ruchi Jaiswal",
+                    "screen_name": "test_account",
+                    "name": "Test Account",
                     "id": 617109008,
                     "id_str": "617109008",
                     "indices": [
@@ -7351,7 +7351,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -7402,7 +7402,7 @@
             "created_at": "Thu Feb 07 05:12:01 +0000 2019",
             "id": 1093376815404601344,
             "id_str": "1093376815404601344",
-            "text": "reply 1- sub reply",
+            "full_text": "reply 1- sub reply",
             "truncated": false,
             "entities": {
                 "hashtags": [],
@@ -7415,12 +7415,12 @@
             "in_reply_to_status_id_str": "1093376662824202240",
             "in_reply_to_user_id": 617109008,
             "in_reply_to_user_id_str": "617109008",
-            "in_reply_to_screen_name": "jaiswal_ruchi",
+            "in_reply_to_screen_name": "test_account",
             "user": {
                 "id": 617109008,
                 "id_str": "617109008",
-                "name": "Ruchi Jaiswal",
-                "screen_name": "jaiswal_ruchi",
+                "name": "Test Account",
+                "screen_name": "test_account",
                 "location": "",
                 "description": "",
                 "url": null,
@@ -7486,15 +7486,15 @@
         "created_at": "Thu Feb 07 06:15:21 +0000 2019",
         "id": 1093392755710144512,
         "id_str": "1093392755710144512",
-        "text": "RT @jaiswal_ruchi: test with comment for retweet https://t.co/a5jXZYq7Hf",
+        "full_text": "RT @test_account: test with comment for retweet https://t.co/a5jXZYq7Hf",
         "truncated": false,
         "entities": {
             "hashtags": [],
             "symbols": [],
             "user_mentions": [
                 {
-                    "screen_name": "jaiswal_ruchi",
-                    "name": "Ruchi Jaiswal",
+                    "screen_name": "test_account",
+                    "name": "Test Account",
                     "id": 617109008,
                     "id_str": "617109008",
                     "indices": [
@@ -7506,8 +7506,8 @@
             "urls": [
                 {
                     "url": "https://t.co/a5jXZYq7Hf",
-                    "expanded_url": "https://twitter.com/jaiswal_ruchi/status/1093376815404601344",
-                    "display_url": "twitter.com/jaiswal_ruchi/…",
+                    "expanded_url": "https://twitter.com/test_account/status/1093376815404601344",
+                    "display_url": "twitter.com/test_account/…",
                     "indices": [
                         49,
                         72
@@ -7525,7 +7525,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,
@@ -7576,7 +7576,7 @@
             "created_at": "Thu Feb 07 06:06:48 +0000 2019",
             "id": 1093390600420974592,
             "id_str": "1093390600420974592",
-            "text": "test with comment for retweet https://t.co/a5jXZYq7Hf",
+            "full_text": "test with comment for retweet https://t.co/a5jXZYq7Hf",
             "truncated": false,
             "entities": {
                 "hashtags": [],
@@ -7585,8 +7585,8 @@
                 "urls": [
                     {
                         "url": "https://t.co/a5jXZYq7Hf",
-                        "expanded_url": "https://twitter.com/jaiswal_ruchi/status/1093376815404601344",
-                        "display_url": "twitter.com/jaiswal_ruchi/…",
+                        "expanded_url": "https://twitter.com/test_account/status/1093376815404601344",
+                        "display_url": "twitter.com/test_account/…",
                         "indices": [
                             30,
                             53
@@ -7603,8 +7603,8 @@
             "user": {
                 "id": 617109008,
                 "id_str": "617109008",
-                "name": "Ruchi Jaiswal",
-                "screen_name": "jaiswal_ruchi",
+                "name": "Test Account",
+                "screen_name": "test_account",
                 "location": "",
                 "description": "",
                 "url": null,
@@ -7659,7 +7659,7 @@
                 "created_at": "Thu Feb 07 05:12:01 +0000 2019",
                 "id": 1093376815404601344,
                 "id_str": "1093376815404601344",
-                "text": "reply 1- sub reply",
+                "full_text": "reply 1- sub reply",
                 "truncated": false,
                 "entities": {
                     "hashtags": [],
@@ -7672,12 +7672,12 @@
                 "in_reply_to_status_id_str": "1093376662824202240",
                 "in_reply_to_user_id": 617109008,
                 "in_reply_to_user_id_str": "617109008",
-                "in_reply_to_screen_name": "jaiswal_ruchi",
+                "in_reply_to_screen_name": "test_account",
                 "user": {
                     "id": 617109008,
                     "id_str": "617109008",
-                    "name": "Ruchi Jaiswal",
-                    "screen_name": "jaiswal_ruchi",
+                    "name": "Test Account",
+                    "screen_name": "test_account",
                     "location": "",
                     "description": "",
                     "url": null,
@@ -7753,7 +7753,7 @@
         "created_at": "Mon Feb 04 11:12:17 +0000 2019",
         "id": 1092380316013088769,
         "id_str": "1092380316013088769",
-        "text": "test tweet 1",
+        "full_text": "test tweet 1",
         "truncated": false,
         "entities": {
             "hashtags": [],
@@ -7771,7 +7771,7 @@
             "id": 4113725063,
             "id_str": "4113725063",
             "name": "Contoso Media",
-            "screen_name": "imparshwa",
+            "screen_name": "twitter_testaccount",
             "location": "Ahmadabad City, India",
             "description": "Always believe something wonderful is about to happen.🙃",
             "url": null,

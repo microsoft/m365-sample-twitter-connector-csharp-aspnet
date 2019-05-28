@@ -37,17 +37,7 @@ namespace Sample.TwitterSDK
         /// Add an Twitter tweet to Email
         /// </summary>
         /// <param name="tweet">Twitter Tweet</param>
-        public async Task<List<Item>> MapTweetToItemList(Tweet tweet)
-        {
-            List<Item> listItems = new List<Item>();
-
-            Item postItem = MapTweetToItem(tweet); 
-            listItems.Add(postItem);
-
-            return listItems;
-        }
-
-        private Item MapTweetToItem(Tweet tweet)
+        public Item MapTweetToItem(Tweet tweet)
         {
             Item postItem = new Item()
             {
@@ -67,8 +57,14 @@ namespace Sample.TwitterSDK
                 NumOfLikes = tweet.FavoriteCount,
                 MessagePreviewText = tweet.TweetText.ToString()
             };
-
             postItem.ContentAttachments = MapAttachments(tweet);
+
+            if (!tweet.InReplyToUserId.Equals(tweet.User.Id))
+            {
+                postItem.ParentId = string.Empty;
+                postItem.ThreadId = string.Empty;
+            }
+
             return postItem;
         }
         #endregion public methods
