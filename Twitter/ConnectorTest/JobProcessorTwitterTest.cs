@@ -36,9 +36,9 @@ namespace ConnectorTest
         public async Task FetchData_WhenSinceIdisZero_ThenDataFetched()
         {
             var tweets = JsonConvert.DeserializeObject<List<Tweet>>(File.ReadAllText(@"FakeTweets.json"));
-            downloader.Setup(x => x.GetWebContent<List<Tweet>, ErrorsTwitter>(It.Is<string>( s => s == "https://api.twitter.com/1.1/statuses/user_timeline.json?include_entities=true&count=200&include_rts=true"), It.IsAny<AuthenticationHeaderValue>()))
+            downloader.Setup(x => x.GetWebContent<List<Tweet>, ErrorsTwitter>(It.Is<string>( s => s == "https://api.twitter.com/1.1/statuses/user_timeline.json?include_entities=true&count=200&include_rts=true&tweet_mode=extended"), It.IsAny<AuthenticationHeaderValue>()))
                 .ReturnsAsync(tweets);
-            downloader.Setup(x => x.GetWebContent<List<Tweet>, ErrorsTwitter>(It.Is<string>(s => s != "https://api.twitter.com/1.1/statuses/user_timeline.json?include_entities=true&count=200&include_rts=true"), It.IsAny<AuthenticationHeaderValue>()))
+            downloader.Setup(x => x.GetWebContent<List<Tweet>, ErrorsTwitter>(It.Is<string>(s => s != "https://api.twitter.com/1.1/statuses/user_timeline.json?include_entities=true&count=200&include_rts=true&tweet_mode=extended"), It.IsAny<AuthenticationHeaderValue>()))
                 .ReturnsAsync(JsonConvert.DeserializeObject<List<Tweet>>("[]"));
             ConnectorTask connectorTask = new ConnectorTask
             {
@@ -60,12 +60,7 @@ namespace ConnectorTest
 
             tweets.RemoveAll(t => DateTime.Compare(DateTime.ParseExact(t.CreatedAt, "ddd MMM dd HH:mm:ss +ffff yyyy", new System.Globalization.CultureInfo("en-US")), connectorTask.StartTime) < 0);
             tweets.RemoveAll(t => DateTime.Compare(DateTime.ParseExact(t.CreatedAt, "ddd MMM dd HH:mm:ss +ffff yyyy", new System.Globalization.CultureInfo("en-US")), connectorTask.EndTime) > 0);
-            var countAllTweet = 0;
-            foreach (var t in tweets)
-            {
-                countAllTweet = countAllTweet +GetCountForEachTweet(t);
-            }
-            Assert.AreEqual(listTweets.Count, countAllTweet);
+            Assert.AreEqual(listTweets.Count, tweets.Count);
             mockRepo.VerifyAll();
         }
 
@@ -135,23 +130,6 @@ namespace ConnectorTest
             };
             jobProcessor = new JobProcessorTwitter(downloader.Object, uploader.Object, new TwitterSchemaToItemMapper());
             var list = await jobProcessor.FetchData(connectorTask, JsonConvert.SerializeObject(sourceInfo));
-        }
-
-        private int GetCountForEachTweet(Tweet t)
-        {
-            int count = 1;
-            if (t.IsQuotedStatus && t.QuotedStatus != null)
-            {
-                count = count + GetCountForEachTweet(t.QuotedStatus);
-            }
-
-            if (t.Retweeted && t.RetweetedStatus != null)
-            {
-                count = count + GetCountForEachTweet(t.RetweetedStatus);
-            }
-
-            return count;
-
         }
     }
 }

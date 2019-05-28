@@ -62,6 +62,7 @@ namespace Sample.TwitterConnector
                 Trace.TraceError($"Unknown Failure, Requires Attention, JobId:{taskInfo.JobId}, TaskId:{taskInfo.TaskId}, Error: {e.Message}, ErrorStackTrace: {e.StackTrace}");
             }
             itemMetadata.OrderBy(i => i.id);
+            itemMetadata.Reverse();
             await eventApiClient.OnDownloadCompleteAsync(taskInfo.TenantId, taskInfo.JobId, taskInfo.TaskId, status, itemMetadata);
         }
 

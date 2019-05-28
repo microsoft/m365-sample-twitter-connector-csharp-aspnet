@@ -114,7 +114,7 @@ namespace Sample.TwitterSDK
                     foreach (var tweet in tweets)
                     {
                         var enrichedTweet = await EnrichTweetWithAttachments(tweet);
-                        itemMetaData.AddRange(await UploadTweet(twitterItemMapper, enrichedTweet, taskInfo));
+                        itemMetaData.Add(await UploadTweet(twitterItemMapper, enrichedTweet, taskInfo));
                     }
                     twitterSourceInfo.SinceId = tweets.Select(t => long.Parse(t.Tweetid)).ToList<long>().Max().ToString();
                 }
@@ -139,18 +139,12 @@ namespace Sample.TwitterSDK
         /// </summary>
         /// <param name="twitterItemMapper">Transforms Twitter data to Item Schema</param>
         /// <param name="tweet">Twitter tweet</param>
-        private async Task<List<ItemMetadata>> UploadTweet(TwitterSchemaToItemMapper twitterItemMapper, Tweet tweet, ConnectorTask taskInfo)
+        private async Task<ItemMetadata> UploadTweet(TwitterSchemaToItemMapper twitterItemMapper, Tweet tweet, ConnectorTask taskInfo)
         {
-            List<Item> postItem = await twitterItemMapper.MapTweetToItemList(tweet);
-            List<ItemMetadata> itemMetaDataList = new List<ItemMetadata>();
-            foreach (var item in postItem)
-            {
-                string fileName = await uploader.UploadItem(taskInfo.JobId, taskInfo.TaskId, item);
-                Trace.TraceInformation("Tweet Uploaded to Azure Blobs");
-                itemMetaDataList.Add(new ItemMetadata(item.Id, item.SentTimeUtc, fileName));
-            }
-
-            return itemMetaDataList;
+            Item item = twitterItemMapper.MapTweetToItem(tweet);
+            string fileName = await uploader.UploadItem(taskInfo.JobId, taskInfo.TaskId, item);
+            Trace.TraceInformation("Tweet Uploaded to Azure Blobs");
+            return new ItemMetadata(item.Id, item.SentTimeUtc, fileName);            
         }
 
         private async Task<Tweet> EnrichTweetWithAttachments(Tweet tweet)
@@ -199,6 +193,7 @@ namespace Sample.TwitterSDK
                 {"include_entities", "true"},
                 {"count", "200"},
                 {"include_rts", "true"},
+                {"tweet_mode", "extended" },
             };
 
             if (Convert.ToInt64(sourceInfo.SinceId) > 0)

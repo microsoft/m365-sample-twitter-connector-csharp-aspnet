@@ -22,7 +22,7 @@ namespace Sample.TwitterSDK
         /// <summary>
         /// Tweet or Retweet text of authenticating user. 
         /// </summary>
-        [JsonProperty("text")]
+        [JsonProperty("full_text")]
         public string TweetText { get; set; }
 
         /// <summary>
