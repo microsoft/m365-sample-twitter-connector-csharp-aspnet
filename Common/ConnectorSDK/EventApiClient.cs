@@ -45,7 +45,7 @@ namespace Sample.Connector
                         "Authorization", "Bearer " + token
                     }
                 },
-                RequestUri = new Uri(baseUrl + "api/event/downloadcomplete/"),
+                RequestUri = new Uri(baseUrl + "api/data/onwebhookevent/"),
                 Content = new StringContent(JsonConvert.SerializeObject(e), Encoding.UTF8, "application/json")
             };
             await httpClient.SendAsync(request);
