@@ -102,7 +102,21 @@ namespace Sample.TwitterSDK
         {
             string page_id = string.Empty;
             SourceInfoTwitter sourceInfo = new SourceInfoTwitter();
-            sourceInfo.SinceId = "0";
+
+            var pageJobMappingTable = azureTableProvider.GetAzureTableReference(Settings.PageJobMappingTableName);
+            Expression<Func<PageJobEntity, bool>> filter = (entity => entity.RowKey == $"{jobId}");
+            List<PageJobEntity> pageJobEntityList = await azureTableProvider.QueryEntitiesAsync<PageJobEntity>(pageJobMappingTable, filter);
+            PageJobEntity pageJobEntity = pageJobEntityList?[0];
+            SourceInfoTwitter SourceInfoTwitter = JsonConvert.DeserializeObject<SourceInfoTwitter>(pageJobEntity?.SourceInfo);
+            if (SourceInfoTwitter != null)
+            {
+                sourceInfo.SinceId = SourceInfoTwitter.SinceId;
+            }
+            else
+            {
+                sourceInfo.SinceId = "0";
+            }
+
             foreach (var pair in accessToken.Split('&'))
             {
                 var keys = pair.Split('=');
@@ -121,12 +135,12 @@ namespace Sample.TwitterSDK
             }
 
             var PageJobMappingTable = azureTableProvider.GetAzureTableReference(Settings.PageJobMappingTableName);
-            var pageJobEntity = new PageJobEntity(page_id, jobId)
+            var PageJobEntity = new PageJobEntity(page_id, jobId)
             {
                 SourceInfo = JsonConvert.SerializeObject(sourceInfo)
             };
 
-            await azureTableProvider.InsertOrReplaceEntityAsync(PageJobMappingTable, pageJobEntity);
+            await azureTableProvider.InsertOrReplaceEntityAsync(PageJobMappingTable, PageJobEntity);
         }
 
     }

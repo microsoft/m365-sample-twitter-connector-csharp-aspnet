@@ -22,7 +22,7 @@ namespace Sample.Connector
         public async Task DeleteToken(string connectorJobType, string jobId)
         {
             string accessTokenKey = makeAccessTokenKey(jobId, connectorJobType);
-            Task.Run(() => DeleteTokenHelper(accessTokenKey, connectorJobType));
+            await Task.Run(() => DeleteTokenHelper(accessTokenKey, connectorJobType));
         }
 
         private async Task DeleteTokenHelper(string accessTokenKey, string connectorJobType)
