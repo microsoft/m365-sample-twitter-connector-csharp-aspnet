@@ -39,6 +39,11 @@ namespace Sample.TwitterSDK
         /// <param name="tweet">Twitter Tweet</param>
         public Item MapTweetToItem(Tweet tweet)
         {
+            if(tweet == null)
+                return null;
+
+            var parentItem = tweet.InReplyToStatusId == null ? null : tweet.IsQuotedStatus? MapTweetToItem(tweet.QuotedStatus) : MapTweetToItem(tweet.RetweetedStatus);
+
             Item postItem = new Item()
             {
                 SchemaVersion = new Version(1, 0),
@@ -55,7 +60,11 @@ namespace Sample.TwitterSDK
                 Sender = TweetUserToItemUser(tweet.User),
                 Recipients = Array.Empty<User>(),
                 NumOfLikes = tweet.FavoriteCount,
-                MessagePreviewText = tweet.TweetText.ToString()
+                MessagePreviewText = tweet.TweetText.ToString(),
+                PreContext = parentItem == null ? null : new List<Item>{
+                   parentItem
+                },
+                PostContext = null
             };
             postItem.ContentAttachments = MapAttachments(tweet);
 
