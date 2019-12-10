@@ -135,12 +135,12 @@ namespace Sample.TwitterSDK
             }
 
             var PageJobMappingTable = azureTableProvider.GetAzureTableReference(Settings.PageJobMappingTableName);
-            var pageJobEntity = new PageJobEntity(page_id, jobId)
+            var PageJobEntity = new PageJobEntity(page_id, jobId)
             {
                 SourceInfo = JsonConvert.SerializeObject(sourceInfo)
             };
 
-            await azureTableProvider.InsertOrReplaceEntityAsync(PageJobMappingTable, pageJobEntity);
+            await azureTableProvider.InsertOrReplaceEntityAsync(PageJobMappingTable, PageJobEntity);
         }
 
     }
