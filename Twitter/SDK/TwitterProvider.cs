@@ -106,10 +106,11 @@ namespace Sample.TwitterSDK
             var pageJobMappingTable = azureTableProvider.GetAzureTableReference(Settings.PageJobMappingTableName);
             Expression<Func<PageJobEntity, bool>> filter = (entity => entity.RowKey == $"{jobId}");
             List<PageJobEntity> pageJobEntityList = await azureTableProvider.QueryEntitiesAsync<PageJobEntity>(pageJobMappingTable, filter);
-            PageJobEntity pageJobEntity = pageJobEntityList?[0];
-            SourceInfoTwitter SourceInfoTwitter = JsonConvert.DeserializeObject<SourceInfoTwitter>(pageJobEntity?.SourceInfo);
-            if (SourceInfoTwitter != null)
+            PageJobEntity pageJobEntity;
+            if (pageJobEntityList.Count != 0)
             {
+                pageJobEntity = pageJobEntityList[0];
+                SourceInfoTwitter SourceInfoTwitter = JsonConvert.DeserializeObject<SourceInfoTwitter>(pageJobEntity.SourceInfo);
                 sourceInfo.SinceId = SourceInfoTwitter.SinceId;
             }
             else
@@ -134,13 +135,12 @@ namespace Sample.TwitterSDK
                 }
             }
 
-            var PageJobMappingTable = azureTableProvider.GetAzureTableReference(Settings.PageJobMappingTableName);
-            var PageJobEntity = new PageJobEntity(page_id, jobId)
+            pageJobEntity = new PageJobEntity(page_id, jobId)
             {
                 SourceInfo = JsonConvert.SerializeObject(sourceInfo)
             };
 
-            await azureTableProvider.InsertOrReplaceEntityAsync(PageJobMappingTable, PageJobEntity);
+            await azureTableProvider.InsertOrReplaceEntityAsync(pageJobMappingTable, pageJobEntity);
         }
 
     }
