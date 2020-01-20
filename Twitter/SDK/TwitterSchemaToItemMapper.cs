@@ -39,10 +39,10 @@ namespace Sample.TwitterSDK
         /// <param name="tweet">Twitter Tweet</param>
         public Item MapTweetToItem(Tweet tweet)
         {
-            if(tweet == null)
+            if (tweet == null)
                 return null;
 
-            var parentItem = tweet.InReplyToStatusId == null ? null : tweet.IsQuotedStatus? MapTweetToItem(tweet.QuotedStatus) : MapTweetToItem(tweet.RetweetedStatus);
+            var parentItem = tweet.InReplyToStatusId == null ? null : tweet.IsQuotedStatus ? MapTweetToItem(tweet.QuotedStatus) : MapTweetToItem(tweet.RetweetedStatus);
 
             Item postItem = new Item()
             {
@@ -84,8 +84,7 @@ namespace Sample.TwitterSDK
             {
                 Id = user?.Id.ToString(),
                 UserProfilePhotoUrl = user.ProfileImageUrl,
-                Name = user?.Name ?? "Anonymous",
-                EmailAddress = user?.Id.ToString() ?? "Anonymous"
+                Name = user?.Name ?? "Anonymous"
             };
         }
 

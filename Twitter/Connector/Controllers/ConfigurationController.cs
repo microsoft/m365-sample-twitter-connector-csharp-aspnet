@@ -68,20 +68,25 @@ namespace Sample.TwitterConnector
                 Settings.AAdAppSecret = configSettings["AADAppSecretValue"];
                 await azureTableProvider.InsertOrReplaceEntityAsync(SettingsTable, new ConfigurationSettingsEntity("AAdAppSecret", configSettings["AADAppSecretValue"]));
             }
-
-            if (!string.IsNullOrEmpty(configSettings["AADAppUriValue"]))
-            {
-                Settings.AADAppUri = configSettings["AADAppUriValue"];
-                await azureTableProvider.InsertOrReplaceEntityAsync(SettingsTable, new ConfigurationSettingsEntity("AADAppUri", configSettings["AADAppUriValue"]));
-            }
-
-            if (!string.IsNullOrEmpty(configSettings["InstrumentationKeyValue"]))
-            {
-                Settings.APPINSIGHTS_INSTRUMENTATIONKEY = configSettings["InstrumentationKeyValue"];
-                await azureTableProvider.InsertOrReplaceEntityAsync(SettingsTable, new ConfigurationSettingsEntity("APPINSIGHTS_INSTRUMENTATIONKEY", configSettings["InstrumentationKeyValue"]));
-                TelemetryConfiguration.Active.InstrumentationKey = configSettings["InstrumentationKeyValue"];
-            }
             return true;
+        }       
+
+        /// <summary>
+        /// Get configuration settings
+        /// </summary>
+        /// <returns>configuration settings</returns>
+        [HttpGet]
+        [Route("api/Configuration")]
+        public Task<Dictionary<string, string>> GetConfiguration()
+        {
+            Dictionary<string, string> configurationSettings = new Dictionary<string, string>();
+            configurationSettings.Add("TwitterApiKeyValue", SettingsTwitter.TwitterApiKey);
+            configurationSettings.Add("TwitterApiSecretKeyValue", SettingsTwitter.TwitterApiSecretKey);
+            configurationSettings.Add("TwitterAccessTokenValue", SettingsTwitter.TwitterAccessToken);
+            configurationSettings.Add("TwitterAccessTokenSecretValue", SettingsTwitter.TwitterAccessTokenSecret);
+            configurationSettings.Add("AADAppSecretValue", Settings.AAdAppSecret);
+            configurationSettings.Add("AADAppIdValue", Settings.AAdAppId);
+            return Task.FromResult(configurationSettings);
         }
     }
 }

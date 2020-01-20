@@ -7,30 +7,42 @@
 	<link rel="stylesheet" href="~/Content/style.css" />
 </head>
 <body ng-app="MainApp">
-	<div class="container" ng-controller="NativeConnectorSetupCtrl">
-		<div class="mainContent">
-			<div class="row justify-content-center" ng-show="!isLoginComplete">
-				<div class="">
-					<div class="form-group">
-						<input type="password" ng-model="sharedSecretKey" class="form-control" placeholder="Shared Secret" />
-					</div>
-					<button class="btn btn-primary" ng-click="login()">Login to Connector Service</button>
-				</div>
-			</div>
-
-			<div class="row justify-content-center" ng-show="isAuthenticationComplete && isSetupComplete">
-				<div>
-					<span>{{pageSaveMessage}}</span><br />
-					<button class="btn btn-success" ng-click="finishSetup()">Finish</button>
-				</div>
-			</div>
-
-			<div class="row justify-content-center" ng-show="!isSetupComplete && isLoginComplete && !isbusy && !isAuthenticationComplete">
-				<div class="row padding-bottom10 padding-top10">
-					<button class="btn btn-primary signInButton" ng-click="openPopop()">Continue with Twitter</button>
-				</div>			
-			</div>
-		</div>
+    <div class="container" ng-controller="NativeConnectorSetupCtrl">
+        <div class="container">
+            <div class="row" ng-show="!isLoginComplete">
+                <div class="col">
+                    <div class="row padding-bottom10"><h4>Authorize Microsoft 365 to import data</h4></div>
+                    <div class="row padding-bottom20">Provide below the APISecretKey that you defined during creation of web app resource in Azure and login to your web app</div>
+                    <div class="row padding-bottom20"><input class="form-control secretKey-input" type="password" ng-model="sharedSecretKey" placeholder="Paste APISecretKey value" /></div>
+                    <div class="row"><button class="btn btn-primary scc-btn" ng-disabled="sharedSecretKey==undefined || sharedSecretKey==''" ng-click="login()">Login web app</button></div>
+                </div>
+            </div>
+            <div class="row" ng-show="isLoginComplete">
+                <div class="col padding-bottom40"><div class="row"><h4>Configure Twitter connector app</h4></div></div>
+                <div class="w-100"></div>
+                <div class="col-3" style="border-right: 1px solid grey">
+                    <div class="row padding-bottom20" ng-show="!isSetupComplete && !isAuthenticated"><b>Log in with Twitter</b></div>
+                    <div class="row padding-bottom20" ng-show="!(!isSetupComplete && !isAuthenticated)">Log in with Twitter</div>
+                    <div class="row padding-bottom20" ng-show="isSetupComplete"><b>Configuration complete</b></div>
+                    <div class="row padding-bottom20" ng-show="!isSetupComplete">Configuration complete</div>
+                </div>
+                <div class="col">
+                    <div class="row padding-bottom20" ng-show="!isSetupComplete && !isAuthenticated && !isbusy">
+                        <div class="col steps-body">
+                            <div class="row padding-bottom10 padding-top10 justify-content-center">
+                                <button class="btn btn-primary signInButton" ng-click="openPopop()" ng-disabled="isbusy"><b>Login with Twitter</b></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row padding-bottom20" ng-show="isSetupComplete">
+                        <div class="col steps-body">
+                            <div class="row padding-bottom20">{{pageSaveMessage}}</div>
+                            <div class="row"><button class="btn btn-primary scc-btn" ng-click="finishSetup()">Continue</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-sanitize.js"></script>
