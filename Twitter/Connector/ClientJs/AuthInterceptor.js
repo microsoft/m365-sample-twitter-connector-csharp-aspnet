@@ -16,7 +16,7 @@
                 window.confirm("Invalid shared secret");
                 window.location.reload();
             }
-            return;
+            return rejection;
         }
     }
 })
