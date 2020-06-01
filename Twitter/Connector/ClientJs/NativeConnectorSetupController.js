@@ -4,6 +4,8 @@
     $scope.sharedSecretKey = "";
     $scope.isSetupComplete = false;
     $scope.pageSaveMessage = "";
+    $scope.authenticatingMessage = '';
+    $scope.authenticationErrorMessage = '';
     $scope.entities = [];
     $scope.isbusy = true;
     $scope.isTokenDeleted = false;
@@ -29,11 +31,22 @@
 
             getEntitiesUrl = getEntitiesUrl + "&jobId=" + jobId;
             deleteTokenUrl = deleteTokenUrl + "&jobId=" + jobId;
-            $scope.isLoginComplete = true;
 
+            $scope.authenticatingMessage = "Authenticating. Please wait...";
+            $scope.authenticationErrorMessage = '';
             $http.get(getOAuthUrl).then((response) => {
-                $scope.authenticationUrl = response.data;
-                $scope.isbusy = false;
+                $scope.authenticatingMessage = '';
+                if (response.status === 200) {
+                    $scope.authenticationUrl = response.data;
+                    $scope.isbusy = false;
+                    $scope.isLoginComplete = true;
+                }
+                else if (response.status === 500) {
+                    $scope.authenticationErrorMessage = "Authentication error due to incorrect configuration in step : 'Configure the Twitter connector app'. Please check the values for 'Twitter Api Key', 'Twitter Api Secret Key', 'Twitter Access Token', 'Twitter Access Token Secret'.";
+                }
+                else {
+                    $scope.authenticationErrorMessage = response.statusText;
+                }
             });
         }
     }
