@@ -75,7 +75,7 @@ namespace Sample.Connector
                         "Authorization", "Bearer " + token
                     }
                 },
-                RequestUri = new Uri(baseUrl + "api/event/nativeconnector/" + "?jobId=" + jobId),
+                RequestUri = new Uri(baseUrl + "api/data/ondownloadcomplete/" + "?jobId=" + jobId),
                 Content = new StringContent(JsonConvert.SerializeObject(list), Encoding.UTF8, "application/json")
             };
             await httpClient.SendAsync(request);
